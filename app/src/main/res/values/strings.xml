@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Balance</string>
+    <string name="Header">Заполните Баланс</string>
+    <string name="OborAct">Оборотные активы</string>
+    <string name="VneObActiv">I. Внеобороные Активы</string>
+    <string name="intangible_assets">Нематериальные активы</string>
+    <string name="recearch_dev">Рез. исследований</string>
 </resources>
