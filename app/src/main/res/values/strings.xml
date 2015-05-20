@@ -5,4 +5,20 @@
     <string name="VneObActiv">I. Внеобороные Активы</string>
     <string name="intangible_assets">Нематериальные активы</string>
     <string name="recearch_dev">Рез. исследований</string>
+    <string name="Osnovn_sredstva">Основные средства</string>
+    <string name="doxod_vlosh_v_mat_chen">Доходы вл. в мат. ценности</string>
+    <string name="otlosh_nal_ob">Отложенные нал-ые активы</string>
+    <string name="proch_vneob_active">Прочие внеоборотные активы</string>
+    <string name="itog_po_pervomu">Итог по первому разделу</string>
+    <string name="oborotn_active">II.Оборотные активы</string>
+    <string name="zanasi">Запасы</string>
+    <string name="nds_no_preobr">НДС по преобр. ценностям</string>
+    <string name="deb_zadolsh">Дебиторска задолженость</string>
+    <string name="fin_vlosh">Финансовые вложения</string>
+    <string name="den_sredstva">Ден. стредства и эквиваленты</string>
+    <string name="prochie_ob_active">Прочие оборотные активы</string>
+    <string name="itog_po_vtoromu">Итог по второму разделу</string>
+    <string name="continuue">Заполнить следующий период</string>
+    <string name="tW2">Заполните второй период</string>
+    <string name="gotovo1">Готово</string>
 </resources>

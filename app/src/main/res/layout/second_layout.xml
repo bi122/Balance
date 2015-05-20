@@ -7,8 +7,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/Header"
-        android:id="@+id/textView"
+        android:text="@string/tW2"
+        android:id="@+id/tW2"
         android:layout_gravity="center_horizontal" />
 
     <ScrollView
@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="number|text|numberSigned|numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETintangible_assets"
+                    android:id="@+id/ET2intangible_assets"
                     android:layout_column="1"
                     android:editable="true" />
             </TableRow>
@@ -66,7 +66,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETrecearch_dev"
+                    android:id="@+id/ET2recearch_dev"
                     android:layout_column="1"
                     android:editable="true"/>
             </TableRow>
@@ -87,7 +87,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETosnovn_sredstva"
+                    android:id="@+id/ET2osnovn_sredstva"
                     android:layout_column="1" />
             </TableRow>
             <TableRow
@@ -107,7 +107,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETdoxod_vlosh_v_mat_chen"
+                    android:id="@+id/ET2doxod_vlosh_v_mat_chen"
                     android:layout_column="1" />
             </TableRow>
             <TableRow
@@ -127,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETotlosh_nal_activ"
+                    android:id="@+id/ET2otlosh_nal_activ"
                     android:layout_column="1" />
             </TableRow>
             <TableRow
@@ -147,7 +147,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETproch_vneob_active"
+                    android:id="@+id/ET2proch_vneob_active"
                     android:layout_column="1" />
             </TableRow>
             <TableRow
@@ -168,7 +168,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETitog_po_pervomu"
+                    android:id="@+id/ET2itog_po_pervomu"
                     android:layout_column="1"
                     android:editable="false" />
             </TableRow>
@@ -197,7 +197,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETzanasi"
+                    android:id="@+id/ET2zanasi"
                     android:layout_column="1" />
             </TableRow>
             <TableRow
@@ -217,7 +217,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETnds_no_preobr"
+                    android:id="@+id/ET2nds_no_preobr"
                     android:layout_column="1" />
             </TableRow>
             <TableRow
@@ -237,7 +237,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETdeb_zadols"
+                    android:id="@+id/ET2deb_zadols"
                     android:layout_column="1" />
             </TableRow>
             <TableRow
@@ -257,7 +257,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETfin_vlosh"
+                    android:id="@+id/ET2fin_vlosh"
                     android:layout_column="1" />
             </TableRow>
             <TableRow
@@ -277,7 +277,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETden_sredstva"
+                    android:id="@+id/ET2den_sredstva"
                     android:layout_column="1" />
             </TableRow>
             <TableRow
@@ -297,7 +297,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETprochie_ob_active"
+                    android:id="@+id/ET2prochie_ob_active"
                     android:layout_column="1" />
             </TableRow>
             <TableRow
@@ -318,7 +318,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETitog_po_vtoromu"
+                    android:id="@+id/ET2itog_po_vtoromu"
                     android:layout_column="1"
                     android:editable="false"/>
             </TableRow>
@@ -326,13 +326,11 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/continuue"
-                android:id="@+id/button"
+                android:text="@string/gotovo1"
+                android:id="@+id/report"
                 android:layout_gravity="center_horizontal" />
         </TableLayout>
 
     </ScrollView>
-
-
 
 </LinearLayout>
