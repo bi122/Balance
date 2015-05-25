@@ -7,8 +7,10 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
-    Intent intent;
+    Intent intentSec;
+    Intent intentAlt;
     Button button1;
+    Button btnAltmn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,8 +20,17 @@ public class MainActivity extends Activity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(MainActivity.this, SecondActivity.class);
-                startActivity(intent);
+                intentSec = new Intent(MainActivity.this, SecondActivity.class);
+                startActivity(intentSec);
+            }
+        });
+
+        btnAltmn = (Button)findViewById(R.id.btnAltman);
+        btnAltmn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intentAlt = new Intent(MainActivity.this, AltmanActivity.class);
+                startActivity(intentAlt);
             }
         });
 

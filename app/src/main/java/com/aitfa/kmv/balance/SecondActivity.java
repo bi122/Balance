@@ -82,10 +82,23 @@ public class SecondActivity extends Activity implements View.OnClickListener {
                 res = String.format("%s = %s , %s = %s.  \n", getResources().getString(R.string.teklikvid), teklikvid, getResources().getString(R.string.obespec), obessobsred);
                 if(flag){
                     res += String.format("%s %s", getResources().getString(R.string.udov), koefutr);
+                    if(koefutr >= 1){
+                        res += String.format("%s", getResources().getString(R.string.ZnachKoefP));
+                    }
+                    else {
+                        res += String.format("%s", getResources().getString(R.string.ZnachKoefM));
+                    }
                 }
                 else{
                     res += String.format("%s %s", getResources().getString(R.string.neudov), koefutr);
+                    if(koefutr >= 1){
+                        res += String.format("%s", getResources().getString(R.string.ZnachKoefVostP));
+                    }
+                    else {
+                        res += String.format("%s", getResources().getString(R.string.ZnachKoefVostM));
+                    }
                 }
+                Rez.setVisibility(View.VISIBLE);
                 Rez.setText(res);
             }
         });

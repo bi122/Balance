@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Balance</string>
-    <string name="Header">Заполните Баланс</string>
+    <string name="Header">Выберите способ проверки</string>
     <string name="OborAct">Оборотные активы</string>
     <string name="VneObActiv">I. Внеобороные Активы</string>
     <string name="intangible_assets">Нематериальные активы</string>
@@ -25,4 +25,19 @@
     <string name="neudov">Структура баланса неудовлетворительная. Коэффициент восстановления платежеспособности имеет значение: </string>
     <string name="teklikvid">Коэффициент текущей ликвидности</string>
     <string name="obespec">Коэффициент обеспеченности собственными средствами</string>
+    <string name="DolgorsOb">Долгосрочные обяз-ва</string>
+    <string name="BalansPrib">Балансовая прибыль</string>
+    <string name="KratkosOb">Краткосрочные обяз-ва</string>
+    <string name="Viruchka">Выручка (Нетто)</string>
+    <string name="ZnachKoefP">Это значение больше 1.0, следовательно компания имеет реальную возможность не утратить плетежеспособность в течение ближайших 3х месяцев.</string>
+    <string name="ZnachKoefM">Это значение меньше 1.0, следовательно компания имеет реальную возможность утратить плетежеспособность в течение ближайших 3х месяцев.</string>
+    <string name="ZnachKoefVostP">Это значение больше 1.0, следовательно компания имеет реальную возможность восстановить плетежеспособность в течение ближайших 6и месяцев.</string>
+    <string name="ZnachKoefVostM">Это значение меньше 1.0, следовательно компания не имеет реальной возможности восстановить плетежеспособность в течение ближайших 6и месяцев.</string>
+    <string name="indAltamanaZnach">Индекс Альтмана = </string>
+    <string name="Spok2Year">Банкротство не грозит в течение 2 лет</string>
+    <string name="Spok2YearNiz">Хотя остается низкая возможность банкротства</string>
+    <string name="Spok2YearSuperNiz">Хотя остается крайне низкая возможность банкротства</string>
+    <string name="UnSpok2Year">Грозит банкротство в течение 2 лет</string>
+    <string name="UnSpok2YearVis">Вероятность банкротства при этом высокая</string>
+    <string name="UnSpok2YearSuperVis">Вероятность банкротства при этом крайне высокая</string>
 </resources>

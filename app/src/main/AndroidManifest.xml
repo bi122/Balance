@@ -17,6 +17,9 @@
         <activity android:name=".SecondActivity">
 
         </activity>
+        <activity android:name=".AltmanActivity">
+
+        </activity>
 
     </application>
 

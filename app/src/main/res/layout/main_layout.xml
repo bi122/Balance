@@ -24,20 +24,18 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Платежеспособноть"
+                android:text="Платежеспособноcть"
                 android:id="@+id/button"
                 android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Индекс Альтмана"
+                android:id="@+id/btnAltman" />
         </TableLayout>
 
     </ScrollView>
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button2"
-        android:layout_gravity="center_horizontal" />
 
 
 </LinearLayout>

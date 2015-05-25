@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Финансовая благосостоятельность"
+        android:text="Индекс Альтмана"
         android:id="@+id/tW2"
         android:layout_gravity="center_horizontal"
         android:gravity="center" />Double.parseDouble
@@ -21,13 +21,6 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:measureWithLargestChild="false">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Начало года"
-                android:id="@+id/textView2" />
 
             <TableRow
                 android:layout_width="fill_parent"
@@ -93,6 +86,28 @@
             </TableRow>
 
             <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/DolgorsOb"
+                    android:id="@+id/intangible_assets" />
+
+                <EditText
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number|text|numberSigned|numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/ETDolgosrochOb"
+                    android:layout_column="1"
+                    android:editable="true" />
+            </TableRow>
+
+            <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -100,7 +115,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Краткосрочные обяз-ва"
+                    android:text="@string/KratkosOb"
                     android:id="@+id/kratkosrObyaj" />
 
                 <EditText
@@ -112,34 +127,7 @@
                     android:id="@+id/ETCratcosrOb"
                     android:layout_column="1" />
             </TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Конец года"
-                android:id="@+id/textView2" />
 
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/VneObActiv"
-                    android:id="@+id/intangible_assets" />
-
-                <EditText
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:inputType="number|text|numberSigned|numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ET2VneoborotrAct"
-                    android:layout_column="1"
-                    android:editable="true" />
-            </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -148,28 +136,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/OborAct"
-                    android:id="@+id/recearch_dev" />
-
-                <EditText
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:inputType="number|text|numberSigned|numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ET2OborotAct"
-                    android:layout_column="1"
-                    android:editable="true"/>
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Капитал и резервы"
+                    android:text="@string/Viruchka"
                     android:id="@+id/osnovn_sredstva" />
 
                 <EditText
@@ -178,7 +145,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="number|text|numberSigned|numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ET2Capital"
+                    android:id="@+id/ETViruchka"
                     android:layout_column="1" />
             </TableRow>
 
@@ -190,8 +157,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Краткосрочные обяз-ва"
-                    android:id="@+id/kratkosrObyaj" />
+                    android:text="@string/BalansPrib"
+                    android:id="@+id/recearch_dev" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -199,9 +166,32 @@
                     android:layout_height="wrap_content"
                     android:inputType="number|text|numberSigned|numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ET2CratcosrOb"
+                    android:id="@+id/ETBalancePribil"
+                    android:layout_column="1"
+                    android:editable="true"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Чистая прибыль"
+                    android:id="@+id/osnovn_sredstva" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="number|text|numberSigned|numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/ETChistay"
                     android:layout_column="1" />
             </TableRow>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
