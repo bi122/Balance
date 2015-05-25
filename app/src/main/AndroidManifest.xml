@@ -20,6 +20,9 @@
         <activity android:name=".AltmanActivity">
 
         </activity>
+        <activity android:name=".TaflerTishouActivity">
+
+        </activity>
 
     </application>
 

@@ -73,7 +73,7 @@ public class AltmanActivity extends Activity {
                 }
                 catch (Exception e){}
                 String resultat = "";
-                resultat += String.format("%s %s ", getResources().getString(R.string.indAltamanaZnach), z);
+                resultat += String.format("%s %.3f ", getResources().getString(R.string.indAltamanaZnach), z);
                 if (z >= 2.675){
                     resultat += String.format("%s ", getResources().getString(R.string.Spok2Year));
                     if (z < 2.99){

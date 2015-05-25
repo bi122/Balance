@@ -2,7 +2,7 @@
     <string name="app_name">Balance</string>
     <string name="Header">Выберите способ проверки</string>
     <string name="OborAct">Оборотные активы</string>
-    <string name="VneObActiv">I. Внеобороные Активы</string>
+    <string name="VneObActiv">Внеобороные Активы</string>
     <string name="intangible_assets">Нематериальные активы</string>
     <string name="recearch_dev">Рез. исследований</string>
     <string name="Osnovn_sredstva">Основные средства</string>
@@ -10,7 +10,7 @@
     <string name="otlosh_nal_ob">Отложенные нал-ые активы</string>
     <string name="proch_vneob_active">Прочие внеоборотные активы</string>
     <string name="itog_po_pervomu">Итог по первому разделу</string>
-    <string name="oborotn_active">II.Оборотные активы</string>
+    <string name="oborotn_active">Оборотные активы</string>
     <string name="zanasi">Запасы</string>
     <string name="nds_no_preobr">НДС по преобр. ценностям</string>
     <string name="deb_zadolsh">Дебиторска задолженость</string>
@@ -27,6 +27,7 @@
     <string name="obespec">Коэффициент обеспеченности собственными средствами</string>
     <string name="DolgorsOb">Долгосрочные обяз-ва</string>
     <string name="BalansPrib">Балансовая прибыль</string>
+    <string name="ProdazhPrib">Прибыль от продаж</string>
     <string name="KratkosOb">Краткосрочные обяз-ва</string>
     <string name="Viruchka">Выручка (Нетто)</string>
     <string name="ZnachKoefP">Это значение больше 1.0, следовательно компания имеет реальную возможность не утратить плетежеспособность в течение ближайших 3х месяцев.</string>
@@ -40,4 +41,8 @@
     <string name="UnSpok2Year">Грозит банкротство в течение 2 лет</string>
     <string name="UnSpok2YearVis">Вероятность банкротства при этом высокая</string>
     <string name="UnSpok2YearSuperVis">Вероятность банкротства при этом крайне высокая</string>
+    <string name="TafTish">Значение модель Таффлера-Тишоу = </string>
+    <string name="bolshe03">Укомпании неплохие долгосрочные перспективы.</string>
+    <string name="menshe02">Банкроство вероятно.</string>
+    <string name="between">Продолжайте работать дальше.</string>
 </resources>

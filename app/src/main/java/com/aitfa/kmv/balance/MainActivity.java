@@ -9,8 +9,10 @@ import android.widget.Button;
 public class MainActivity extends Activity {
     Intent intentSec;
     Intent intentAlt;
+    Intent intentTafTish;
     Button button1;
     Button btnAltmn;
+    Button btnTafTish;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +33,15 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 intentAlt = new Intent(MainActivity.this, AltmanActivity.class);
                 startActivity(intentAlt);
+            }
+        });
+
+        btnTafTish = (Button)findViewById(R.id.btnTafTish);
+        btnTafTish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intentTafTish = new Intent(MainActivity.this, TaflerTishouActivity.class);
+                startActivity(intentTafTish);
             }
         });
 

@@ -33,9 +33,18 @@
                 android:layout_height="wrap_content"
                 android:text="Индекс Альтмана"
                 android:id="@+id/btnAltman" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Модель Таффлера-Тишоу"
+                android:id="@+id/btnTafTish"
+                android:layout_gravity="center_horizontal" />
+
         </TableLayout>
 
     </ScrollView>
+
 
 
 </LinearLayout>

@@ -79,7 +79,7 @@ public class SecondActivity extends Activity implements View.OnClickListener {
 
                 //накапливает результат
                 String res;
-                res = String.format("%s = %s , %s = %s.  \n", getResources().getString(R.string.teklikvid), teklikvid, getResources().getString(R.string.obespec), obessobsred);
+                res = String.format("%s = %.3f , %s = %.3f .  \n", getResources().getString(R.string.teklikvid), teklikvid, getResources().getString(R.string.obespec), obessobsred);
                 if(flag){
                     res += String.format("%s %s", getResources().getString(R.string.udov), koefutr);
                     if(koefutr >= 1){
@@ -90,7 +90,7 @@ public class SecondActivity extends Activity implements View.OnClickListener {
                     }
                 }
                 else{
-                    res += String.format("%s %s", getResources().getString(R.string.neudov), koefutr);
+                    res += String.format("%s %.3f .", getResources().getString(R.string.neudov), koefutr);
                     if(koefutr >= 1){
                         res += String.format("%s", getResources().getString(R.string.ZnachKoefVostP));
                     }
