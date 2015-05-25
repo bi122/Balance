@@ -9,7 +9,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/tW2"
         android:id="@+id/tW2"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal" />Double.parseDouble
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/VneObActiv"
+                android:text="Начало года"
                 android:id="@+id/textView2" />
 
             <TableRow
@@ -36,7 +36,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/intangible_assets"
+                    android:text="@string/VneObActiv"
                     android:id="@+id/intangible_assets" />
 
                 <EditText
@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="number|text|numberSigned|numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ET2intangible_assets"
+                    android:id="@+id/ETVneoborotrAct"
                     android:layout_column="1"
                     android:editable="true" />
             </TableRow>
@@ -57,7 +57,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/recearch_dev"
+                    android:text="@string/OborAct"
                     android:id="@+id/recearch_dev" />
 
                 <EditText
@@ -66,7 +66,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ET2recearch_dev"
+                    android:id="@+id/ETOborotAct"
                     android:layout_column="1"
                     android:editable="true"/>
             </TableRow>
@@ -78,7 +78,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/Osnovn_sredstva"
+                    android:text="Капитал и резервы"
                     android:id="@+id/osnovn_sredstva" />
 
                 <EditText
@@ -87,9 +87,10 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ET2osnovn_sredstva"
+                    android:id="@+id/ETCapital"
                     android:layout_column="1" />
             </TableRow>
+
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -98,8 +99,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/doxod_vlosh_v_mat_chen"
-                    android:id="@+id/doxod_vlosh_v_mat_chen" />
+                    android:text="Краткосрочные обяз-ва"
+                    android:id="@+id/kratkosrObyaj" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -107,78 +108,15 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ET2doxod_vlosh_v_mat_chen"
+                    android:id="@+id/ETCratcosrOb"
                     android:layout_column="1" />
             </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/otlosh_nal_ob"
-                    android:id="@+id/otlosh_nal_activ" />
-
-                <EditText
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:inputType="numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ET2otlosh_nal_activ"
-                    android:layout_column="1" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/proch_vneob_active"
-                    android:id="@+id/proch_vneob_active" />
-
-                <EditText
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:inputType="numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ET2proch_vneob_active"
-                    android:layout_column="1" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/itog_po_pervomu"
-                    android:id="@+id/itog_po_pervomu"
-                    style="@style/Base.TextAppearance.AppCompat.Body1" />
-
-                <EditText
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:inputType="numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ET2itog_po_pervomu"
-                    android:layout_column="1"
-                    android:editable="false" />
-            </TableRow>
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/oborotn_active"
-                android:id="@+id/textView3" />
+                android:text="Конец года"
+                android:id="@+id/textView2" />
 
             <TableRow
                 android:layout_width="fill_parent"
@@ -188,146 +126,94 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/zanasi"
-                    android:id="@+id/zanasi" />
+                    android:text="@string/VneObActiv"
+                    android:id="@+id/intangible_assets" />
 
                 <EditText
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:inputType="numberDecimal"
+                    android:inputType="number|text|numberSigned|numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ET2zanasi"
-                    android:layout_column="1" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/nds_no_preobr"
-                    android:id="@+id/nds_no_preobr" />
-
-                <EditText
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:inputType="numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ET2nds_no_preobr"
-                    android:layout_column="1" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/deb_zadolsh"
-                    android:id="@+id/deb_zadols" />
-
-                <EditText
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:inputType="numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ET2deb_zadols"
-                    android:layout_column="1" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/fin_vlosh"
-                    android:id="@+id/fin_vlosh" />
-
-                <EditText
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:inputType="numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ET2fin_vlosh"
-                    android:layout_column="1" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/den_sredstva"
-                    android:id="@+id/den_sredstva" />
-
-                <EditText
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:inputType="numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ET2den_sredstva"
-                    android:layout_column="1" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/prochie_ob_active"
-                    android:id="@+id/prochie_ob_active" />
-
-                <EditText
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:inputType="numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ET2prochie_ob_active"
-                    android:layout_column="1" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/itog_po_vtoromu"
-                    android:id="@+id/itog_po_vtoromu"
-                    style="@style/Base.TextAppearance.AppCompat.Body1" />
-
-                <EditText
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:inputType="numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ET2itog_po_vtoromu"
+                    android:id="@+id/ET2VneoborotrAct"
                     android:layout_column="1"
-                    android:editable="false"/>
+                    android:editable="true" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/OborAct"
+                    android:id="@+id/recearch_dev" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/ET2OborotAct"
+                    android:layout_column="1"
+                    android:editable="true"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Капитал и резервы"
+                    android:id="@+id/osnovn_sredstva" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/ET2Capital"
+                    android:layout_column="1" />
             </TableRow>
 
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Краткосрочные обяз-ва"
+                    android:id="@+id/kratkosrObyaj" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/ET2CratcosrOb"
+                    android:layout_column="1" />
+            </TableRow>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/gotovo1"
                 android:id="@+id/report"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/result"
                 android:layout_gravity="center_horizontal" />
         </TableLayout>
 
