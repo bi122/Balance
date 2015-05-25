@@ -17,13 +17,18 @@
         <activity android:name=".SecondActivity">
 
         </activity>
+
         <activity android:name=".AltmanActivity">
 
         </activity>
+
         <activity android:name=".TaflerTishouActivity">
 
         </activity>
 
+        <activity android:name=".LisActivity">
+
+        </activity>
     </application>
 
 </manifest>

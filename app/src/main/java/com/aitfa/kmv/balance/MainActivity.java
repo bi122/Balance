@@ -10,9 +10,11 @@ public class MainActivity extends Activity {
     Intent intentSec;
     Intent intentAlt;
     Intent intentTafTish;
+    Intent intentLis;
     Button button1;
     Button btnAltmn;
     Button btnTafTish;
+    Button btnLis;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +44,15 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 intentTafTish = new Intent(MainActivity.this, TaflerTishouActivity.class);
                 startActivity(intentTafTish);
+            }
+        });
+
+        btnLis = (Button)findViewById(R.id.btnLis);
+        btnLis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intentLis = new Intent(MainActivity.this, LisActivity.class);
+                startActivity(intentLis);
             }
         });
 

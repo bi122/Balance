@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Модель Таффлера-Тишоу"
+        android:text="Модель Лиса"
         android:id="@+id/tW2"
         android:layout_gravity="center_horizontal"
         android:gravity="center" />Double.parseDouble
@@ -73,6 +73,28 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Капитал и Резервы"
+                    android:id="@+id/intangible_assets" />
+
+                <EditText
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number|text|numberSigned|numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/ETCapitalRez"
+                    android:layout_column="1"
+                    android:editable="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="@string/DolgorsOb"
                     android:id="@+id/intangible_assets" />
 
@@ -116,7 +138,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/Viruchka"
+                    android:text="Нераспределенная приб."
                     android:id="@+id/osnovn_sredstva" />
 
                 <EditText
@@ -125,7 +147,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="number|text|numberSigned|numberDecimal"
                     android:ems="10"
-                    android:id="@+id/ETViruchka"
+                    android:id="@+id/ETNeraspred"
                     android:layout_column="1" />
             </TableRow>
 
