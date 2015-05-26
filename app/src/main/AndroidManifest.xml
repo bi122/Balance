@@ -23,6 +23,10 @@
         </activity>
         <activity android:name=".LisActivity" >
         </activity>
+        <activity android:name=".DavidovaBelicovaActivity" >
+        </activity>
+        <activity android:name=".CrorringActivity" >
+        </activity>
     </application>
 
 </manifest>

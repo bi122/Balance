@@ -46,4 +46,11 @@
     <string name="menshe02">Банкроство вероятно.</string>
     <string name="between">Продолжайте работать дальше.</string>
     <string name="ModelLisa">Значение модель Лиса = </string>
+    <string name="ModelDavBel">Значение модель Давыдово-Беликова = </string>
+    <string name="integralZatrati">Интегральные затраты</string>
+    <string name="DavBelMax">Вероятность банкротства максимальная</string>
+    <string name="DavBelHigh">Вероятность банкротства высокая</string>
+    <string name="DavBelMid">Вероятность банкротства средняя</string>
+    <string name="DavBelLov">Вероятность банкротства низкая</string>
+    <string name="DavBelLovest">Минимальная вероятность банкротства</string>
 </resources>

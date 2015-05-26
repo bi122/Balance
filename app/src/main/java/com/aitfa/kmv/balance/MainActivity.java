@@ -9,14 +9,18 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
+    Intent intentScorring;
     Intent intentSec;
     Intent intentAlt;
     Intent intentTafTish;
     Intent intentLis;
+    Intent intentDavBel;
     Button button1;
     Button btnAltmn;
     Button btnTafTish;
     Button btnLis;
+    Button btnDavBel;
+    Button btnCredScor;
     private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +62,22 @@ public class MainActivity extends Activity {
                 startActivity(intentLis);
             }
         });
-
+        btnDavBel = (Button)findViewById(R.id.btnDavBel);
+        btnDavBel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intentDavBel = new Intent(MainActivity.this, DavidovaBelicovaActivity.class);
+                startActivity(intentDavBel);
+            }
+        });
+        btnCredScor = (Button)findViewById(R.id.btnCredScor);
+        btnCredScor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intentScorring = new Intent(MainActivity.this, CrorringActivity.class);
+                startActivity(intentScorring);
+            }
+        });
     }
 
     private void initToolbar() {
