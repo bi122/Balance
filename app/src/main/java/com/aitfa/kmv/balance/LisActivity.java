@@ -4,12 +4,15 @@ package com.aitfa.kmv.balance;
 import android.app.Activity;
 import android.graphics.Paint;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
 public class LisActivity extends Activity{
+    private Toolbar toolbar;
     private Button reportBtn;
     private EditText VneobAct;
     private EditText ObAct;
@@ -24,7 +27,7 @@ public class LisActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lis_layout);
-
+        initToolbar();
         VneobAct = (EditText)findViewById(R.id.ETVneoborotrAct);
         ObAct = (EditText)findViewById(R.id.ETOborotAct);
         CapitalRez = (EditText)findViewById(R.id.ETCapitalRez);
@@ -77,5 +80,17 @@ public class LisActivity extends Activity{
                 Rez.setText(resultat);
             }
         });
+    }
+
+    private void initToolbar() {
+        toolbar =(Toolbar)findViewById(R.id.toolbar);
+        toolbar.setTitle(R.string.app_name);
+        toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                return false;
+            }
+        });
+        toolbar.inflateMenu(R.menu.menu);
     }
 }

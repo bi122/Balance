@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/mainBackground"
     android:layout_height="match_parent">
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -10,7 +14,7 @@
         android:text="Финансовая благосостоятельность"
         android:id="@+id/tW2"
         android:layout_gravity="center_horizontal"
-        android:gravity="center" />Double.parseDouble
+        android:gravity="center" />
 
     <ScrollView
         android:layout_width="fill_parent"

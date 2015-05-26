@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Balance</string>
+    <string name="app_name">Быстрый Банкрот</string>
     <string name="Header">Выберите способ проверки</string>
     <string name="OborAct">Оборотные активы</string>
     <string name="VneObActiv">Внеобороные Активы</string>
@@ -35,10 +35,10 @@
     <string name="ZnachKoefVostP">Это значение больше 1.0, следовательно компания имеет реальную возможность восстановить плетежеспособность в течение ближайших 6и месяцев.</string>
     <string name="ZnachKoefVostM">Это значение меньше 1.0, следовательно компания не имеет реальной возможности восстановить плетежеспособность в течение ближайших 6и месяцев.</string>
     <string name="indAltamanaZnach">Индекс Альтмана = </string>
-    <string name="Spok2Year">Банкротство не грозит в течение 2 лет</string>
-    <string name="Spok2YearNiz">Хотя остается низкая возможность банкротства</string>
-    <string name="Spok2YearSuperNiz">Хотя остается крайне низкая возможность банкротства</string>
-    <string name="UnSpok2Year">Грозит банкротство в течение 2 лет</string>
+    <string name="Spok2Year">Банкротство не грозит в течение 2 лет.</string>
+    <string name="Spok2YearNiz">Хотя остается низкая возможность банкротства.</string>
+    <string name="Spok2YearSuperNiz">Хотя остается крайне низкая возможность банкротства.</string>
+    <string name="UnSpok2Year">Грозит банкротство в течение 2 лет.</string>
     <string name="UnSpok2YearVis">Вероятность банкротства при этом высокая</string>
     <string name="UnSpok2YearSuperVis">Вероятность банкротства при этом крайне высокая</string>
     <string name="TafTish">Значение модель Таффлера-Тишоу = </string>
