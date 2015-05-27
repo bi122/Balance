@@ -23,7 +23,9 @@
     <string name="gotovo1">Готово</string>
     <string name="udov">Структура баланса удовлетворительная. Коэффициент утраты платежеспособности имеет значение: </string>
     <string name="neudov">Структура баланса неудовлетворительная. Коэффициент восстановления платежеспособности имеет значение: </string>
-    <string name="teklikvid">Коэффициент текущей ликвидности</string>
+    <string name="teklikvid">Коэффициент текущей ликвидности = </string>
+    <string name="sovCapitlal">Рентабельность совокупного капитала = </string>
+    <string name="finIndepen">Коэффциент финансовой независимости = </string>
     <string name="obespec">Коэффициент обеспеченности собственными средствами</string>
     <string name="DolgorsOb">Долгосрочные обяз-ва</string>
     <string name="BalansPrib">Балансовая прибыль</string>
@@ -53,4 +55,8 @@
     <string name="DavBelMid">Вероятность банкротства средняя</string>
     <string name="DavBelLov">Вероятность банкротства низкая</string>
     <string name="DavBelLovest">Минимальная вероятность банкротства</string>
+    <string name="BallSovCapit">Полученно баллов за рентабельность совокупного капитала = </string>
+    <string name="BallTekLik">Полученно баллов за коэф. текущий ликвидности = </string>
+    <string name="BallFinNez">Полученно баллов за коэф. финансовой независимости = </string>
+    <string name="category">класс.</string>
 </resources>

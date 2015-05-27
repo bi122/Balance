@@ -90,28 +90,6 @@
             </TableRow>
 
             <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/DolgorsOb"
-                    android:id="@+id/intangible_assets" />
-
-                <EditText
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:inputType="number|text|numberSigned|numberDecimal"
-                    android:ems="10"
-                    android:id="@+id/ETDolgosrochOb"
-                    android:layout_column="1"
-                    android:editable="true" />
-            </TableRow>
-
-            <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
