@@ -161,7 +161,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/BalansPrib"
+                    android:text="Нераспред. прибыль"
                     android:id="@+id/recearch_dev" />
 
                 <EditText
